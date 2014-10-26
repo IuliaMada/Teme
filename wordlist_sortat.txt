@@ -1,0 +1,1 @@
+["CU\n", "ana\n", "mere\n", "pere\n", "CARAs\n", "banane\n", "mara's\n", "Maria's\n", "Masaa's\n"]
