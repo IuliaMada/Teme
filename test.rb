@@ -1,5 +1,5 @@
 # names = IO.readlines('Tema/wordlist2.txt')
-names = IO.readlines('Tema/wordlist2.txt')
+names = IO.readlines('./wordlist2.txt')
 
 # for x in 0...names.length
 # 	for y in x+1...names.length
@@ -17,7 +17,7 @@ names = IO.readlines('Tema/wordlist2.txt')
 # 	end
 # end
 # puts names
-# File.open('Tema/wordlist_sortat.txt', 'w') do |f| f.puts "#{names}"
+# File.open('./wordlist_sortat.txt', 'w') do |f| f.puts "#{names}"
 # end
 
 neordonat = true
@@ -36,4 +36,4 @@ while neordonat do
     end    
 end
 puts names
-File.open("Tema/wordlist_sortat.txt", 'w') {|f| f.write(names) }
+File.open("./wordlist_sortat.txt", 'w') {|f| f.write(names) }
